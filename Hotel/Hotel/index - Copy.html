@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Tel_uStay</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="main.css" />
+    <script
+      src="https://kit.fontawesome.com/dbed6b6114.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="images/logotel.png" type="image/png" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header" id="header">
+      <div class="head-top">
+        <div class="site-name">
+          <span>Tel-uStay</span>
+        </div>
+        <div class="site-nav">
+          <span id="nav-btn">MENU <i class="fas fa-bars"></i></span>
+        </div>
+      </div>
+
+      <div class="head-bottom flex">
+        <h2>WELCOME TO TEL-USTAY</h2>
+        <p>
+          Selamat Datang Para Tamu Wisudawan Telkom University,Selamat datang di
+          hotel kami, tempat yang sempurna untuk penginapan Anda! Kami adalah
+          hotel yang menawarkan pengalaman menginap yang unik dan menyenangkan
+          dengan layanan yang ramah dan profesional. Kami menawarkan berbagai
+          pilihan kamar yang nyaman dan dilengkapi dengan fasilitas modern untuk
+          memenuhi kebutuhan dan preferensi tamu kami.Pesan sekarang dan nikmati
+          liburan yang sempurna di hotel kami!
+        </p>
+        <a style="text-decoration:none" type="button" class="head-btn" href="loginPage.html">GET STARTED</a>
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- side navbar -->
+    <div class="sidenav" id="sidenav">
+      <span class="cancel-btn" id="cancel-btn">
+        <i class="fas fa-times"></i>
+      </span>
+
+      <ul class="navbar">
+        <li><a href="#header">home</a></li>
+        <li><a href="#services">services</a></li>
+        <li><a href="#rooms">rooms</a></li>
+        <li><a href="#customers">customers</a></li>
+      </ul>
+      <button class="btn sign-up">sign up</button>
+      <button class="btn log-in">log in</button>
+    </div>
+    <!-- end of side navbar -->
+
+    <!-- fullscreen modal -->
+    <div id="modal"></div>
+    <!-- end of fullscreen modal -->
+
+    <!-- body content  -->
+    <section class="services sec-width" id="services">
+      <div class="title">
+        <h1>services</h1>
+      </div>
+      <div class="services-container">
+        <!-- single service -->
+        <article class="service">
+          <div class="service-icon">
+            <span>
+              <i class="fas fa-utensils"></i>
+            </span>
+          </div>
+          <div class="service-content">
+            <h2>Food Service</h2>
+            <p>
+              Nikmati hidangan lezat dan berkualitas dari restoran kami yang
+              siap memanjakan lidah Anda! Dengan menu yang variatif dan
+              bahan-bahan berkualitas, restoran kami menawarkan pengalaman
+              kuliner yang tak terlupakan. Nikmati hidangan favorit Anda dari
+              hidangan lokal hingga hidangan internasional yang disiapkan oleh
+              koki berbakat kami. Dapatkan penawaran spesial untuk layanan
+              makanan kami dengan memesan sekarang dan nikmati pengalaman
+              kuliner yang mengesankan!
+            </p>
+            <button type="button" class="btn">Know More</button>
+          </div>
+        </article>
+        <!-- end of single service -->
+        <!-- single service -->
+        <article class="service">
+          <div class="service-icon">
+            <span>
+              <i class="fas fa-swimming-pool"></i>
+            </span>
+          </div>
+          <div class="service-content">
+            <h2>Refreshment</h2>
+            <p>
+              Berenang di kolam renang kami yang indah dan menyegarkan adalah
+              cara yang tepat untuk melepas penat dan menikmati liburan Anda.
+              Dengan air yang jernih dan segar, kolam renang kami adalah tempat
+              yang tepat untuk bersantai dan menikmati sinar matahari di siang
+              hari atau menikmati suasana yang lebih romantis pada malam hari.
+              Nikmati pengalaman berenang yang tak terlupakan di kolam renang
+              kami yang luas dan tenang. Dapatkan penawaran spesial untuk
+              penggunaan kolam renang kami dengan memesan sekarang dan nikmati
+              liburan yang lebih menyenangkan!
+            </p>
+            <button type="button" class="btn">Know More</button>
+          </div>
+        </article>
+        <!-- end of single service -->
+        <!-- single service -->
+        <article class="service">
+          <div class="service-icon">
+            <span>
+              <i class="fas fa-broom"></i>
+            </span>
+          </div>
+          <div class="service-content">
+            <h2>Housekeeping</h2>
+            <p>
+              Kami menyadari betapa pentingnya kebersihan dan kenyamanan saat
+              Anda menginap di hotel kami. Itulah mengapa layanan housekeeping
+              kami selalu siap membantu menjaga kebersihan dan kenyamanan kamar
+              Anda selama menginap. Dari pembersihan kamar hingga penggantian
+              perlengkapan mandi, tim housekeeping kami yang terlatih dan
+              berpengalaman akan memastikan bahwa kamar Anda selalu bersih dan
+              rapi. Dapatkan penawaran spesial untuk layanan housekeeping kami
+              dengan memesan sekarang dan nikmati pengalaman menginap yang lebih
+              nyaman dan terawat!
+            </p>
+            <button type="button" class="btn">Know More</button>
+          </div>
+        </article>
+        <!-- end of single service -->
+        <!-- single service -->
+        <article class="service">
+          <div class="service-icon">
+            <span>
+              <i class="fas fa-door-closed"></i>
+            </span>
+          </div>
+          <div class="service-content">
+            <h2>Room Security</h2>
+            <p>
+              Keamanan kamar adalah prioritas utama kami. Kami memastikan kamar
+              Anda aman dan terlindungi selama menginap di hotel kami dengan
+              sistem keamanan yang terintegrasi dan personil keamanan yang
+              terlatih. Kami juga menyediakan brankas pribadi di kamar Anda
+              untuk menyimpan barang berharga Anda dengan aman dan tenang.
+              Dapatkan penawaran spesial untuk layanan keamanan kamar kami
+              dengan memesan sekarang dan nikmati pengalaman menginap yang
+              tenang dan terlindungi di hotel kami!
+            </p>
+            <button type="button" class="btn">Know More</button>
+          </div>
+        </article>
+        <!-- end of single service -->
+      </div>
+    </section>
+
+    <div class="book">
+      <form class="book-form">
+        <div class="form-item">
+          <label for="checkin-date">Check In Date: </label>
+          <input type="date" id="chekin-date" />
+        </div>
+        <div class="form-item">
+          <label for="checkout-date">Check Out Date: </label>
+          <input type="date" id="chekout-date" />
+        </div>
+        <div class="form-item">
+          <label for="adult">Adults: </label>
+          <input type="number" min="1" value="1" id="adult" />
+        </div>
+        <div class="form-item">
+          <label for="children">Children: </label>
+          <input type="number" min="1" value="1" id="children" />
+        </div>
+        <div class="form-item">
+          <label for="rooms">Rooms: </label>
+          <input type="number" min="1" value="1" id="rooms" />
+        </div>
+        <div class="form-item">
+          <input type="submit" class="btn" value="Book Now" />
+        </div>
+      </form>
+    </div>
+
+    <section class="rooms sec-width" id="rooms">
+      <div class="title">
+        <h1>rooms</h1>
+      </div>
+      <div class="rooms-container">
+        <!-- single room -->
+        <article class="room">
+          <div class="room-image">
+            <img src="images/standard.jpg" alt="room image" />
+          </div>
+          <div class="room-text">
+            <h3>Standard Rooms</h3>
+            <ul>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                Tempat tidur yang nyaman.
+              </li>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                Kamar mandi pribadi.
+              </li>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                AC atau pengatur suhu.
+              </li>
+            </ul>
+            <p>
+              Nikmati kenyamanan dan kesederhanaan di kamar standar kami yang
+              nyaman dan terjangkau. Dilengkapi dengan fasilitas dasar seperti
+              AC, TV, dan perlengkapan mandi, kamar standar kami cocok untuk
+              wisatawan yang mencari tempat menginap yang sederhana namun tetap
+              nyaman. Pesan sekarang dan nikmati pengalaman menginap yang nyaman
+              dan terjangkau di kota ini!
+            </p>
+            <p class="rate"><span>Rp250.000 /</span> Per Malam</p>
+            <button type="button" class="btn">book now</button>
+          </div>
+        </article>
+        <!-- end of single room -->
+        <!-- single room -->
+        <article class="room">
+          <div class="room-image">
+            <img src="images/deluxe.jpg" alt="room image" />
+          </div>
+          <div class="room-text">
+            <h3>Superior Rooms</h3>
+            <ul>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                Ukuran kamar yang lebih besar.
+              </li>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                Fasilitas tambahan.
+              </li>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                Pemandangan yang menakjubkan.
+              </li>
+            </ul>
+            <p>
+              Kamar Superior kami menawarkan pengalaman menginap yang istimewa
+              dengan kenyamanan yang lebih tinggi dari kamar standar. Dengan
+              ukuran yang lebih besar dan fasilitas tambahan seperti AC, TV
+              layar datar, dan perlengkapan mandi yang lengkap, kamar Superior
+              kami dirancang untuk memberikan kenyamanan maksimal bagi tamu
+              kami. Pesan sekarang dan nikmati pengalaman menginap yang lebih
+              istimewa di kota ini dengan harga yang terjangkau!
+            </p>
+
+            <p class="rate"><span>Rp400.000 /</span> Per Night</p>
+            <button type="button" class="btn">book now</button>
+          </div>
+        </article>
+        <!-- end of single room -->
+        <!-- single room -->
+        <article class="room">
+          <div class="room-image">
+            <img src="images/superior.jpg" alt="room image" />
+          </div>
+          <div class="room-text">
+            <h3>Deluxe Rooms</h3>
+            <ul>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                Fasilitas Mewah.
+              </li>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                Ruang yang Lebih Luas.
+              </li>
+              <li>
+                <i class="fas fa-arrow-alt-circle-right"></i>
+                Fasilitas Tambahan.
+              </li>
+            </ul>
+            <p>
+              Nikmati pengalaman menginap yang mewah dan istimewa di kamar
+              Deluxe kami! Dengan ruangan yang lebih luas dan fasilitas tambahan
+              seperti AC, TV layar datar, kulkas mini, dan perlengkapan mandi
+              lengkap, Anda akan merasa seperti di rumah sendiri. Dapatkan
+              pengalaman menginap yang tak terlupakan dan pesan kamar Deluxe
+              kami sekarang dengan harga spesial!
+            </p>
+            <p class="rate"><span>Rp600.000 /</span> Per Malam</p>
+            <button type="button" class="btn">book now</button>
+          </div>
+        </article>
+        <!-- end of single room -->
+      </div>
+    </section>
+
+    <section class="customers" id="customers">
+      <div class="sec-width">
+        <div class="title">
+          <h1>customers</h1>
+        </div>
+        <div class="customers-container">
+          <!-- single customer -->
+          <div class="customer">
+            <div class="rating">
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="far fa-star"></i></span>
+            </div>
+            <h3>We Loved it</h3>
+            <p>Rekomended banget deh</p>
+            <img src="images/customer1.jpg" alt="customer image" />
+            <span>Lintang</span>
+          </div>
+          <!-- end of single customer -->
+          <!-- single customer -->
+          <div class="customer">
+            <div class="rating">
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="far fa-star"></i></span>
+            </div>
+            <h3>Comfortable Living</h3>
+            <p>Selama 2 malam di sini sangat tenang sekali</p>
+            <img src="images/customer2.jpg" alt="customer image" />
+            <span>Farhanarl</span>
+          </div>
+          <!-- end of single customer -->
+          <!-- single customer -->
+          <div class="customer">
+            <div class="rating">
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="fas fa-star"></i></span>
+              <span><i class="far fa-star"></i></span>
+            </div>
+            <h3>Nice Place</h3>
+            <p>
+              Hotel dengan harga terjangkau dengan fasilitas yang ada sangat
+              woortit
+            </p>
+            <img src="images/customer3.jpg" alt="customer image" />
+            <span>Putri Malda</span>
+          </div>
+          <!-- end of single customer -->
+        </div>
+      </div>
+    </section>
+    <!-- end of body content -->
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div>
+          <h2>About Us</h2>
+          <p>
+            Kami adalah hotel yang menawarkan pengalaman menginap yang unik dan
+            istimewa bagi tamu-tamu kami. Berlokasi strategis di pusat kota,
+            kami menawarkan berbagai pilihan kamar yang luas dan nyaman,
+            dilengkapi dengan fasilitas modern untuk memenuhi kebutuhan dan
+            preferensi tamu kami. Staf kami yang berpengalaman dan ramah selalu
+            siap membantu dan memberikan pelayanan terbaik untuk memastikan
+            pengalaman menginap yang tak terlupakan. Selain itu, hotel kami juga
+            menyediakan berbagai fasilitas lengkap seperti restoran, kafe, kolam
+            renang, pusat kebugaran, dan layanan keamanan yang terintegrasi
+            untuk memberikan pengalaman menginap yang lebih nyaman dan aman bagi
+            tamu kami.
+          </p>
+          <ul class="social-icons">
+            <li class="flex">
+              <i class="fa fa-twitter fa-2x"></i>
+            </li>
+            <li class="flex">
+              <i class="fa fa-facebook fa-2x"></i>
+            </li>
+            <li class="flex">
+              <i class="fa fa-instagram fa-2x"></i>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>Useful Links</h2>
+          <a href="#">Blog</a>
+          <a href="#">Rooms</a>
+          <a href="#">Subscription</a>
+          <a href="#">Gift Card</a>
+        </div>
+
+        <div>
+          <h2>Privacy</h2>
+          <a href="#">Career</a>
+          <a href="#">About Us</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Services</a>
+        </div>
+
+        <div>
+          <h2>Have A Question</h2>
+          <div class="contact-item">
+            <span>
+              <i class="fas fa-map-marker-alt"></i>
+            </span>
+            <span> Bojongsantos </span>
+          </div>
+          <div class="contact-item">
+            <span>
+              <i class="fas fa-phone-alt"></i>
+            </span>
+            <span> +6285236702047 </span>
+          </div>
+          <div class="contact-item">
+            <span>
+              <i class="fas fa-envelope"></i>
+            </span>
+            <span> infoTelu@domain.com </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end of footer -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
